@@ -17,7 +17,7 @@ def group_inputs(input: List[int]) -> List[int]:
     return output
 
 if __name__ == '__main__':
-    data = list(map(lambda s: int(s), read_input_file('input/day1.txt')))
+    data = list(map(lambda s: int(s), read_input_file(1)))
     part1_result = get_increase_count(data)
     print('part1 result:', part1_result)
     assert part1_result == 1316

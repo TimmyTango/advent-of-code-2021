@@ -62,7 +62,7 @@ def interperet_command(ship: Ship, command: str, unit: int) -> None:
 
 
 if __name__ == '__main__':
-    input_data = read_input_file('input/day2.txt')
+    input_data = read_input_file(2)
     part1_ship = Part1Ship(0, 0, 0)
     part2_ship = Part2Ship(0, 0, 0)
 
