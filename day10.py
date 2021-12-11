@@ -32,8 +32,7 @@ def is_closing_bracket(char):
 
 
 def matching_brackets(open: str, close: str) -> bool:
-    if bracket_map[open] == close:
-        return True
+    return bracket_map[open] == close
 
 
 if __name__ == '__main__':
